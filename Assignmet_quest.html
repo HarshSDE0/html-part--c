@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Assignment Questions</title>
+</head>
+<body>
+               <table border="1">
+                              <caption>Student Information</caption>
+                              <tr>
+                                             <th rowspan="6">Info</th>
+                                             <th rowspan="2">Name</th>
+                                             <th colspan="2">Address</th>
+                              </tr>
+                              <tr>
+                                             <th>City</th>
+                                             <th>House</th>
+                              </tr>
+                              <tr>
+                                             <td>A</td>
+                                             <td>Delhi</td>
+                                             <td>1</td>
+                              </tr>
+                              <tr>
+                                             <td>B</td>
+                                             <td>Mumbai</td>
+                                             <td>2</td>
+                              </tr>
+                              <tr>
+                                             <td>C</td>
+                                             <td>Kolkata</td>
+                                             <td>3</td>
+                              </tr>
+                              <tr>
+                                             <td>D</td>
+                                             <td>Pune</td>
+                                             <td>4</td>
+                              </tr>
+                              
+               </table>
+               <hr>
+               <form action="/server">
+                              <div>
+                                             <label for="name">Name: </label>
+                                             <input type="text" name="nam" id="name">
+                              </div>
+                              <div>          
+                                             Sex:
+                                             <input type="radio" name="Sex" id="M" value="Male">
+                                             <label for="M">Male</label>
+                                             <input type="radio" name="Sex" id="F" value="female">
+                                             <label for="F">Female</label>
+                              </div>
+                              <div>
+                                             <label for="ctry">Country: </label>
+                                             <select name="Country" id="ctry">
+                                                            <option value="">Select an option</option>
+                                                            <option value="India">India</option>
+                                                            <option value="Nepal">Nepal</option>
+                                                            <option value="USA">USA</option>
+                                                            <option value="Canada">Canada</option>
+                                             </select>
+                              </div>
+                              <div>
+                                             <label for="msg">Message:</label><br>
+                                             <textarea name="Message" id="msg" cols="30" rows="5"></textarea>
+                              </div>
+
+                              <div>
+                                             <input type="checkbox" name="Subscribe" id="Subs" value="Subscribed">
+                                             <label for="Subs">&nbsp;Subscribe?</label>
+                              </div>
+                              <div>
+                                             <button type="submit">Submit</button>
+                              </div>
+               </form>
+               <hr>
+               <h3>Feedback Form</h3>
+               <div>
+                              <label for="Name">Name: </label>
+
+                              <input type="text" name="Name" Placeholder="Write your name" id="Name">
+               </div><br>
+               <div>
+                              <label for="email">Email: </label>
+                              
+                              <input type="email" name="E-mail" Placeholder="Write your email" id="email">
+               </div>
+               <div>
+                              <!--Message-->
+                              <label for="msg">Message:</label>
+                              <textarea name="Msg" id="msg" cols="30" rows="5"></textarea>
+               </div> <br>
+               <div>
+                              Rate us out of 5: <br>
+                              <input type="radio" name="rat" id="1" value="1">
+                              <label for="1">1</label> <br>
+                              <input type="radio" name="rat" id="2" value="2">
+                              <label for="2">2</label> <br>
+                              <input type="radio" name="rat" id="3" value="3">
+                              <label for="3">3</label> <br>
+                              <input type="radio" name="rat" id="4" value="4">
+                              <label for="4">4</label> <br>
+                              <input type="radio" name="rat" id="5" value="5">
+                              <label for="5">5</label> <br>
+               </div> <br>
+               <div>
+                              <button  type="submit" >Send your message!</button>
+               </div>
+</body>
+</html>

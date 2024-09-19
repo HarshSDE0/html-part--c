@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+               <meta charset="UTF-8">
+               <meta name="viewport" content="width=device-width, initial-scale=1.0">
+               <title>Dropdown</title>
+</head>
+<body>         
+               <blockquote>Step attribute is used to increase the range by particular value mentioned in it. <br> Value attribute is used to pre define the selected value for the range</blockquote>
+
+               <!-- Dropdown Structure -->
+               <form action="/server">
+                              <label for="prof">Select your proffersion</label>
+                              <select name="proffesion" id="prof">
+
+                                             <option value="stu">Student</option>
+                                             <option  selected>--Please select your answer--</option>
+                                             <option value="dev">Developer</option>
+                              </select>
+                              <button type="submit">Submit</button>
+                              <hr>
+                              <!--Range-->
+                              <label for="vol">select your vol level</label>
+                              <input type="range" name="vol_lvl" id="vol" min="0" max="100" step="10" value="20"> <br><br><br>
+                              <!--Textarea-->
+                              <label for="feed">Feedback: </label>
+                              <textarea name="feedback" id="feed" rows="5" cols="30" placeholder="Give us feedback"></textarea><br/>
+                              <button type="submit">Submit</button>
+
+                              
+               </form>
+</body>
+</html>
